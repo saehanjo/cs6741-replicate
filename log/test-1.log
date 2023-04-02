@@ -1,0 +1,17 @@
+(.venv) sj683@en-cs-trummer-gpu01:~/replicate$ /home/sj683/replicate/.venv/bin/python /home/sj683/replicate/test.py
+train - Dropping missing values: 90233 >> 90224
+dev - Dropping missing values: 12792 >> 12792
+test - Dropping missing values: 12779 >> 12779
+cuda:0                                                                                                                                                                                                                                                                                                                 
+/home/sj683/replicate/.venv/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 799/799 [02:08<00:00,  6.22it/s]
+(.venv) sj683@en-cs-trummer-gpu01:~/replicate$ /home/sj683/replicate/.venv/bin/python /home/sj683/replicate/test.py
+train - Dropping missing values: 90233 >> 90224
+dev - Dropping missing values: 12792 >> 12792
+test - Dropping missing values: 12779 >> 12779
+cuda:0                                                                                                                                                                                                                                                                                                                 
+/home/sj683/replicate/.venv/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 799/799 [02:08<00:00,  6.21it/s]
+{'test_loss': 0.6988140344619751, 'test_accuracy': 0.5027779951482901, 'test_runtime': 130.9976, 'test_samples_per_second': 97.551, 'test_steps_per_second': 6.099}
